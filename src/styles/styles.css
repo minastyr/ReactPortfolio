@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+body {
+    font-family: 'Amarante',Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url('../assets/brick-wall.png'); /* Adjust the path if needed */
+    background-repeat: repeat; /* Tile the image */
+    background-size: auto; /* Keep the original size of the image */
+    background-color: #57738c;
+    padding: 20px;
+    color: whitesmoke; /* Ensure text is readable */
+    font-family: 'Amarante',Arial, sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li.active {
+    background-color: rgba(255, 255, 255, 0.2); /* Highlight active link */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 35px;
+    cursor: pointer;
+}
+
+nav li.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+main {
+    margin: 60px; /* Adjust the margin value as needed */
+    padding: 40px; /* Optional: Add padding inside the main section */
+    background-color: #fff; /* Optional: Set a background color */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+section {
+    padding: 20px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.portfolio-item {
+    position: relative;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input.error,
+.contact-form textarea.error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+}
