@@ -37,5 +37,5 @@ This software is covered under The MIT License.  learn more about this license a
 
 ## Questions?
 Contact me at my [GitHub ](https://github.com/minastyr)
-, [Email: ](mailto:minastyr@gmail.com), [StackOverflow: ] (https://stackoverflow.com/users/28188564/joe-vargas), or [LinkedIn: ](https://linkedin.com/in/joe-vargas-ba568a8)
+, [Email: ](mailto:minastyr@gmail.com), [StackOverflow: ](https://stackoverflow.com/users/28188564/joe-vargas), or [LinkedIn: ](https://linkedin.com/in/joe-vargas-ba568a8)
 
