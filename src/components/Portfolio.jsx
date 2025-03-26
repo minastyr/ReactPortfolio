@@ -3,30 +3,30 @@ import React from 'react';
 const Portfolio = () => {
     const projects = [
         {
-            title: 'Project 1',
-            image: 'link_to_image_1',
+            title: 'React Porfolio',
+            image: 'src/assets/react.png',
             deployedLink: 'link_to_deployed_app_1',
-            githubLink: 'link_to_github_repo_1'
+            githubLink: 'https://github.com/minastyr/ReactPortfolio'
         },
         {
-            title: 'Project 2',
-            image: 'link_to_image_2',
-            deployedLink: 'link_to_deployed_app_2',
-            githubLink: 'link_to_github_repo_2'
+            title: 'Full Stack',
+            image: 'src/assets/full-stack-developer.jpg',
+            deployedLink: 'https://fullstack-u9iy.onrender.com',
+            githubLink: 'https://github.com/minastyr/FullStack'
         },
         {
-            title: 'Project 3',
-            image: 'link_to_image_3',
-            deployedLink: 'link_to_deployed_app_3',
-            githubLink: 'link_to_github_repo_3'
+            title: 'Weather Dashboard',
+            image: 'src/assets/weather-weather-mood-clouds-nature-landscapes-66fac6.jpg',
+            deployedLink: 'https://chapter9.onrender.com/',
+            githubLink: 'https://github.com/minastyr/Chapter9'
         },
         {
-            title: 'Project 4',
-            image: 'link_to_image_4',
-            deployedLink: 'link_to_deployed_app_4',
-            githubLink: 'link_to_github_repo_4'
-        },
-        {
+            title: 'Joes Employee Manager',
+            image: 'src/assets/64055e59bec773284d08d1e9_Employee-Retention-Policy-1200x675.jpeg',
+            deployedLink: 'https://drive.google.com/file/d/1kklRtHXK-nk4kCcNjXoYQfyy_3Fs1VmD/view',
+            githubLink: 'https://github.com/minastyr/Chapter10'
+        }
+/*         {
             title: 'Project 5',
             image: 'link_to_image_5',
             deployedLink: 'link_to_deployed_app_5',
@@ -37,7 +37,7 @@ const Portfolio = () => {
             image: 'link_to_image_6',
             deployedLink: 'link_to_deployed_app_6',
             githubLink: 'link_to_github_repo_6'
-        }
+        } */
     ];
 
     return (
