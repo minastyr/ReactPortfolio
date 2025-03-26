@@ -10,7 +10,7 @@ Somthing to show off some of my work [![License: MIT](https://img.shields.io/bad
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Technologies Used](#technologiesused)
+- [Technologies Used](#technologies used)
 - [License](#license)
 - [Questions?](#questions)
 
