@@ -4,25 +4,25 @@ const Portfolio = () => {
     const projects = [
         {
             title: 'React Porfolio',
-            image: 'src/assets/react.png',
+            image: '/react.png',
             deployedLink: 'link_to_deployed_app_1',
             githubLink: 'https://github.com/minastyr/ReactPortfolio'
         },
         {
             title: 'Full Stack',
-            image: 'src/assets/full-stack-developer.jpg',
+            image: '/full-stack-developer.jpg',
             deployedLink: 'https://fullstack-u9iy.onrender.com',
             githubLink: 'https://github.com/minastyr/FullStack'
         },
         {
             title: 'Weather Dashboard',
-            image: 'src/assets/weather-weather-mood-clouds-nature-landscapes-66fac6.jpg',
+            image: '/weather-weather-mood-clouds-nature-landscapes-66fac6.jpg',
             deployedLink: 'https://chapter9.onrender.com/',
             githubLink: 'https://github.com/minastyr/Chapter9'
         },
         {
             title: 'Joes Employee Manager',
-            image: 'src/assets/64055e59bec773284d08d1e9_Employee-Retention-Policy-1200x675.jpeg',
+            image: '/64055e59bec773284d08d1e9_Employee-Retention-Policy-1200x675.jpeg',
             deployedLink: 'https://drive.google.com/file/d/1kklRtHXK-nk4kCcNjXoYQfyy_3Fs1VmD/view',
             githubLink: 'https://github.com/minastyr/Chapter10'
         }
